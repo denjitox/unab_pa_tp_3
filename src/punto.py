@@ -11,4 +11,7 @@ class Punto:
     def impresion(self):
         return f"({self.x}, {self.y})"
         
+    def opuesto(self):
+        factor = -1
+        return Punto(factor * self.x, factor * self.y)
         

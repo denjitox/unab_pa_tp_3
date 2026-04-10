@@ -13,6 +13,8 @@ def main():
     p2 = Punto(4, 5)
     l1 = Linea(p1, p2)
     print("línea: ", l1.impresion())
+    linea.mueve_abajo(3)
+    print("línea después de mover abajo: ", l1.impresion())
     
     if __name__ == "__main__":
         main()
